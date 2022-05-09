@@ -1,0 +1,18 @@
+uuid: 73dc94c8-ee24-4835-ac4d-5c2ba7ec332a
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Evento
+type: evento
+description: 'Tipo de contenido para un evento'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

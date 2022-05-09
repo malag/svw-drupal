@@ -1,0 +1,29 @@
+uuid: a15bf428-b21e-4c72-bf14-00265d3baafa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.evento.body
+    - node.type.evento
+  module:
+    - text
+    - user
+id: node.evento.default
+targetEntityType: node
+bundle: evento
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
