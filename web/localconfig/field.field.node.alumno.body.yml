@@ -1,0 +1,23 @@
+uuid: 22ee37f8-fad3-45ae-91f2-7a0808966e11
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.alumno
+  module:
+    - text
+id: node.alumno.body
+field_name: body
+entity_type: node
+bundle: alumno
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
