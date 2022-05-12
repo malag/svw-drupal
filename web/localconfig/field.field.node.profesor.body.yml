@@ -1,0 +1,23 @@
+uuid: 512f3367-a434-4ec7-8a68-02e695c985a7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.profesor
+  module:
+    - text
+id: node.profesor.body
+field_name: body
+entity_type: node
+bundle: profesor
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
