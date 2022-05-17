@@ -1,0 +1,23 @@
+uuid: c903f2e7-56b2-4536-bdac-70752080b67a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.intendencia
+  module:
+    - text
+id: node.intendencia.body
+field_name: body
+entity_type: node
+bundle: intendencia
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

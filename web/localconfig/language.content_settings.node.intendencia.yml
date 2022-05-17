@@ -1,0 +1,11 @@
+uuid: 693372de-3e8e-4e70-8954-fdc5f7321be8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.intendencia
+id: node.intendencia
+target_entity_type_id: node
+target_bundle: intendencia
+default_langcode: site_default
+language_alterable: false
