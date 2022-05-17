@@ -1,0 +1,33 @@
+uuid: 88136237-31fa-4b35-8f1d-ec1a76b44acf
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.consolas.body
+    - field.field.node.consolas.field_fabricante
+    - node.type.consolas
+  module:
+    - text
+    - user
+id: node.consolas.teaser
+targetEntityType: node
+bundle: consolas
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fabricante: true
+  langcode: true

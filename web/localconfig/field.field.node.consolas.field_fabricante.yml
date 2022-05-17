@@ -1,0 +1,21 @@
+uuid: 4d3d3a9d-9625-47ae-82ca-aa8aa47f43fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fabricante
+    - node.type.consolas
+  module:
+    - text
+id: node.consolas.field_fabricante
+field_name: field_fabricante
+entity_type: node
+bundle: consolas
+label: Fabricante
+description: 'Creado por Ismael'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

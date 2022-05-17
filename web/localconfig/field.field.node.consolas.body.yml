@@ -1,0 +1,23 @@
+uuid: 000c1111-c14e-4518-a6dc-4757329dabd5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.consolas
+  module:
+    - text
+id: node.consolas.body
+field_name: body
+entity_type: node
+bundle: consolas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

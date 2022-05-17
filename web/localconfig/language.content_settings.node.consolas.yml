@@ -1,0 +1,11 @@
+uuid: 60dc1a99-af86-4bd1-bb58-5235db4728bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.consolas
+id: node.consolas
+target_entity_type_id: node
+target_bundle: consolas
+default_langcode: site_default
+language_alterable: false

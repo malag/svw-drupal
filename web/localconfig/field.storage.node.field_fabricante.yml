@@ -1,0 +1,20 @@
+uuid: 7199952a-3a76-4e03-bde3-e3ecf0ee1ec1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_fabricante
+field_name: field_fabricante
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

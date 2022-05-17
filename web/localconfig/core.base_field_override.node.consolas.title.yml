@@ -1,0 +1,18 @@
+uuid: 1a96123e-e349-42cc-9515-b555d1bc148d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.consolas
+id: node.consolas.title
+field_name: title
+entity_type: node
+bundle: consolas
+label: Consolas
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
