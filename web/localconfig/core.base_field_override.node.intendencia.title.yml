@@ -1,0 +1,18 @@
+uuid: 58d29f55-f024-4a6d-a9e9-2ca910b7972a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.intendencia
+id: node.intendencia.title
+field_name: title
+entity_type: node
+bundle: intendencia
+label: Intendencia
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
