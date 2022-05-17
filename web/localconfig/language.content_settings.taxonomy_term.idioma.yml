@@ -1,0 +1,11 @@
+uuid: 48072b49-0915-4105-b205-66ea44a72bfa
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.idioma
+id: taxonomy_term.idioma
+target_entity_type_id: taxonomy_term
+target_bundle: idioma
+default_langcode: site_default
+language_alterable: false
