@@ -1,0 +1,11 @@
+uuid: 806bc626-c664-4755-9d8b-6520717ecd55
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.videojuego
+id: node.videojuego
+target_entity_type_id: node
+target_bundle: videojuego
+default_langcode: site_default
+language_alterable: false

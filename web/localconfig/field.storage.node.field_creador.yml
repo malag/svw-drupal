@@ -1,0 +1,20 @@
+uuid: 50929675-a0dd-43be-aa5e-16e32813058a
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_creador
+field_name: field_creador
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

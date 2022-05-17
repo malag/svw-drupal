@@ -1,0 +1,18 @@
+uuid: 9ce2c78b-8e02-47ba-9bad-e50844e9eb2e
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Videojuego
+type: videojuego
+description: "juegos dee hombre para hombre \r\n\r\nCreado por: Erik"
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

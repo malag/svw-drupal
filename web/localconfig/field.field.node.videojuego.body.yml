@@ -1,0 +1,23 @@
+uuid: e01ea3e0-38c2-44c4-a627-5b84ffb05775
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.videojuego
+  module:
+    - text
+id: node.videojuego.body
+field_name: body
+entity_type: node
+bundle: videojuego
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

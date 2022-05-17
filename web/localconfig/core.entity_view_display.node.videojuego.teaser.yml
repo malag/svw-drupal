@@ -1,0 +1,33 @@
+uuid: 8d3a5842-ccce-49f5-9c89-1b97448d4c48
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.videojuego.body
+    - field.field.node.videojuego.field_creador
+    - node.type.videojuego
+  module:
+    - text
+    - user
+id: node.videojuego.teaser
+targetEntityType: node
+bundle: videojuego
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_creador: true
+  langcode: true

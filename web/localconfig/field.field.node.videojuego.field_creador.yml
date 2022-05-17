@@ -1,0 +1,21 @@
+uuid: 83e4993f-5946-4550-bb06-272c8c2735ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_creador
+    - node.type.videojuego
+  module:
+    - text
+id: node.videojuego.field_creador
+field_name: field_creador
+entity_type: node
+bundle: videojuego
+label: Creador
+description: 'creador del videojuego'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
