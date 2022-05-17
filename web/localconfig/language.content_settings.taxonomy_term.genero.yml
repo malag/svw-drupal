@@ -1,0 +1,11 @@
+uuid: fcabf8db-9683-433b-b3f2-2035ce9a90af
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.genero
+id: taxonomy_term.genero
+target_entity_type_id: taxonomy_term
+target_bundle: genero
+default_langcode: site_default
+language_alterable: false

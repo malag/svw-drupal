@@ -1,0 +1,46 @@
+uuid: 6dbfa74d-9108-4c5e-af0a-ce546476b0b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.libro.body
+    - field.field.node.libro.field_autor
+    - field.field.node.libro.field_genero
+    - node.type.libro
+  module:
+    - text
+    - user
+id: node.libro.default
+targetEntityType: node
+bundle: libro
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_autor:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_genero:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
