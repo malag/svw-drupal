@@ -1,0 +1,29 @@
+uuid: dbcf880a-111c-47be-b1b8-6c440bd658ce
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.directivos.body
+    - node.type.directivos
+  module:
+    - text
+    - user
+id: node.directivos.default
+targetEntityType: node
+bundle: directivos
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
