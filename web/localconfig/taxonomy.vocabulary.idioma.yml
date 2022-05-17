@@ -1,0 +1,8 @@
+uuid: 8799a7ea-bb72-49cb-bef2-4953268dd4d5
+langcode: es
+status: true
+dependencies: {  }
+name: Idioma
+vid: idioma
+description: 'Difrentes tipos de lenguaje'
+weight: 0

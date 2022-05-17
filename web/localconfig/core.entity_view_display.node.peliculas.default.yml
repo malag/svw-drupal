@@ -1,0 +1,29 @@
+uuid: 8aa9e571-5417-44cc-8eaa-8729ba319a28
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.peliculas.body
+    - node.type.peliculas
+  module:
+    - text
+    - user
+id: node.peliculas.default
+targetEntityType: node
+bundle: peliculas
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
