@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7bed63f2f0d48eddad3ca754f159ca4a311bb99b',
+        'reference' => 'f151ccdbced739d42e2ee6ff5e78518bc4744b60',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -69,6 +69,15 @@
             'replaced' => array(
                 0 => '9.3.12',
             ),
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'reference' => '3.1.0',
+            'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
@@ -412,6 +421,15 @@
                 0 => '9.3.12',
             ),
         ),
+        'drupal/easy_install' => array(
+            'pretty_version' => '10.5.0',
+            'version' => '10.5.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/easy_install',
+            'aliases' => array(),
+            'reference' => '8.x-10.5',
+            'dev_requirement' => false,
+        ),
         'drupal/editor' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -640,7 +658,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7bed63f2f0d48eddad3ca754f159ca4a311bb99b',
+            'reference' => 'f151ccdbced739d42e2ee6ff5e78518bc4744b60',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
