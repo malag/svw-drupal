@@ -1,0 +1,34 @@
+taxonomies:
+  genero: {  }
+  idioma:
+    -
+      vid: idioma
+      tid: '1'
+      langcode: es
+      name: Español
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 43a2dc2f-6d8e-4fc5-835d-f78158e9d271
+    -
+      vid: idioma
+      tid: '2'
+      langcode: es
+      name: Ingles
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: aaeefe7f-fa6f-41c1-b719-952b31b6264a
+    -
+      vid: idioma
+      tid: '3'
+      langcode: es
+      name: Portuges
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 91a96d30-7c46-42aa-b46c-45e58b4813e5
+  tags: {  }
