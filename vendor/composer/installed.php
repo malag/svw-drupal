@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f151ccdbced739d42e2ee6ff5e78518bc4744b60',
+        'reference' => '5e9895f8c8a816ab9c7d384eb8becd4d03c3e59e',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -198,6 +198,15 @@
             'replaced' => array(
                 0 => '9.3.12',
             ),
+        ),
+        'drupal/content_sync' => array(
+            'pretty_version' => '3.0.0-beta1',
+            'version' => '3.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/content_sync',
+            'aliases' => array(),
+            'reference' => '3.0.0-beta1',
+            'dev_requirement' => false,
         ),
         'drupal/content_translation' => array(
             'dev_requirement' => false,
@@ -658,7 +667,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f151ccdbced739d42e2ee6ff5e78518bc4744b60',
+            'reference' => '5e9895f8c8a816ab9c7d384eb8becd4d03c3e59e',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
