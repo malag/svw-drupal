@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a688c8ffab32d182bf2281f77a926d099e26fbed',
+        'reference' => 'a4a9bf386ad25d52f83927ec601a33580ed263e9',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -676,7 +676,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a688c8ffab32d182bf2281f77a926d099e26fbed',
+            'reference' => 'a4a9bf386ad25d52f83927ec601a33580ed263e9',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -756,6 +756,15 @@
             'replaced' => array(
                 0 => '9.3.12',
             ),
+        ),
+        'drupal/taxonomy_import' => array(
+            'pretty_version' => '2.0.5',
+            'version' => '2.0.5.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/taxonomy_import',
+            'aliases' => array(),
+            'reference' => '2.0.5',
+            'dev_requirement' => false,
         ),
         'drupal/telephone' => array(
             'dev_requirement' => false,
