@@ -21,7 +21,8 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/easy_install": "^10.5"
+        "drupal/easy_install": "^10.5",
+        "drupal/views_data_export": "^1.1"
     },
     "conflict": {
         "drupal/drupal": "*"
