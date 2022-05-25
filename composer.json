@@ -22,7 +22,9 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/easy_install": "^10.5",
+        "drupal/migrate_plus": "^6.0",
         "drupal/migrate_source_csv": "^3.5",
+        "drupal/migrate_tools": "^6.0",
         "drupal/taxonomy_import": "^2.0",
         "drupal/views_data_export": "^1.1"
     },
