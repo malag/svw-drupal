@@ -1,0 +1,36 @@
+uuid: f0626800-4b07-4b93-a030-3289884d0ab7
+langcode: en
+status: true
+dependencies: {  }
+id: import_terms
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: migrated_terms
+label: 'Migrar términos desde un CSV'
+source:
+  plugin: csv
+  path: 'public://misterminosIdioma.csv'
+  header_row_count: 1
+  keys:
+    - uuid
+  column_names:
+    -
+      uuid: UUID
+    -
+      vid: VID
+    -
+      name: NAME
+    -
+      parent: PARENT
+process:
+  vid: vid
+  name: name
+  parent:
+    plugin: migration
+    migration: import_terms
+    source: parent
+destination:
+  plugin: 'entity:taxonomy_term'
+migration_dependencies: null
