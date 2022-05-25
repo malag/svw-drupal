@@ -16,9 +16,11 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  csv_serialization: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
+  easy_install: 0
   editor: 0
   field: 0
   field_ui: 0
@@ -38,16 +40,20 @@ module:
   path: 0
   path_alias: 0
   rdf: 0
+  rest: 0
   search: 0
+  serialization: 0
   shortcut: 0
   structure_sync: 0
   system: 0
   taxonomy: 0
+  taxonomy_import: 0
   text: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
+  views_data_export: 0
   views_ui: 0
   views: 10
   standard: 1000

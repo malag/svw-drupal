@@ -1,34 +1,24 @@
 taxonomies:
-  genero: {  }
-  idioma:
+  genero:
     -
-      vid: idioma
+      vid: genero
       tid: '1'
       langcode: es
-      name: Español
-      description__value: null
-      description__format: null
+      name: Novela
+      description__value: "<p>Hay distintos&nbsp;<strong>tipos de novelas.</strong>&nbsp;Se define como una narración de carácter extenso, con una estructura compleja donde intervienen diversos personajes (protagonista, personajes secundarios, etc.) . Están<strong>&nbsp;escritas en prosa</strong>&nbsp;y presentan una variedad de eventos en orden lógico:&nbsp;<strong>inicio, desarrollo y desenlace.</strong></p>\r\n\r\n<p>A diferencia de los&nbsp;<strong>textos líricos</strong>, el género de novela destaca por tener&nbsp;<strong>tiempo y espacio bien definidos</strong>, acontecimientos ficticios, pero creíbles. Aquí predomina la&nbsp;<strong>narrativa estética</strong>, apoyada por diálogos, monólogos y descripciones, con personajes de todo tipo.</p>\r\n"
+      description__format: basic_html
       weight: '0'
       parent: '0'
-      uuid: 43a2dc2f-6d8e-4fc5-835d-f78158e9d271
+      uuid: a020c1a2-a791-42cd-b617-c5e8ab120ffb
     -
-      vid: idioma
+      vid: genero
       tid: '2'
       langcode: es
-      name: Ingles
-      description__value: null
-      description__format: null
+      name: 'Novela corta o relato'
+      description__value: "<p>El relato tiene la característica de que su extensión es breve comparado con la novela y tiene una&nbsp;<strong>trama intensa</strong>. Los cuentos resumen al máximo aquellos elementos que son propios de la novela: las largas explicaciones, las descripciones minuciosas o la gran variedad de personajes.</p>\r\n\r\n<p>En el cuento, la historia va al grano rápidamente y posee una economía de recursos narrativos que la hacen tan interesante.&nbsp;</p>\r\n"
+      description__format: basic_html
       weight: '0'
       parent: '0'
-      uuid: aaeefe7f-fa6f-41c1-b719-952b31b6264a
-    -
-      vid: idioma
-      tid: '3'
-      langcode: es
-      name: Portuges
-      description__value: null
-      description__format: null
-      weight: '0'
-      parent: '0'
-      uuid: 91a96d30-7c46-42aa-b46c-45e58b4813e5
+      uuid: ba660094-8316-4b4a-884b-cc87903053c2
+  idioma: {  }
   tags: {  }
